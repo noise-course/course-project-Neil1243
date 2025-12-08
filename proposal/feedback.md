@@ -1,0 +1,3 @@
+## Feedback
+
+This is a clean and well scoped reproduction project. For the experiments, the two details that will matter most are verifying that your feature scaling choices match the leaderboard setup, since models like Logistic Regression and MLP are highly sensitive to normalization on nPrint features, and ensuring that your malware–benign split follows the exact labels and proportions of the benchmark, because the dataset mixes multiple malware families and small deviations in sampling can change performance noticeably. Once those are aligned, reproducing the baseline should be very straightforward.
